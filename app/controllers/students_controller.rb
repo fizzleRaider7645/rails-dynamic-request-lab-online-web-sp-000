@@ -4,4 +4,6 @@ class StudentsController < ApplicationController
   end
   
   def show
+    @student
+  end
 end
